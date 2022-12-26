@@ -1,5 +1,27 @@
+import WebsiteRouting from "./routes";
+
 const App = () => {
-  return <div>Hello world!</div>;
-};
+  return (
+    <>
+      <WebsiteRouting />
+    </>
+  );
+}
 
 export default App;
+
+
+
+
+// import Cart from "./pages/Cart";
+// import Home from "./pages/Home"
+// import Login from "./pages/Login";
+// import Product from "./pages/Product";
+// import ProductList from "./pages/ProductList";
+// import Register from "./pages/Register";
+
+// const App = () => {
+//   return <Home/>;
+// };
+
+// export default App;
